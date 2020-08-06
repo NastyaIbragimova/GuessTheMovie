@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gameLevels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/main_background" />
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:onClick="onClickBack"
+                android:paddingStart="10dp"
+                android:text="@string/back"
+                android:textColor="@color/black95"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollLevels"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/containerLevel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:onClick="onClickLevel1"
+                        android:padding="10dp"
+                        android:text="@string/level1"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level2"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level3"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level4"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level5"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level6"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level7"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level8"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level9"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/containerLevel10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button_level10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:background="@drawable/button_black95_pressed_white"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/level10"
+                        android:textColor="@color/black95"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/progress_level10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:paddingTop="60dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/progress_level"
+                        android:textColor="@color/black95"
+                        android:textSize="25sp" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
