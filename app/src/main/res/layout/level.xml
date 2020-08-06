@@ -30,7 +30,7 @@
             android:paddingTop="10dp">
 
             <LinearLayout
-                android:id="@+id/line1"
+                android:id="@+id/top_line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -79,22 +79,25 @@
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture2"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture3"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
                     </LinearLayout>
 
@@ -106,28 +109,31 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp">
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture4"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture5"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture6"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
                     </LinearLayout>
 
@@ -139,28 +145,31 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp">
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture7"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture8"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture9"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
                     </LinearLayout>
 
@@ -172,28 +181,31 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp">
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture10"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture11"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture12"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
                     </LinearLayout>
 
@@ -205,28 +217,31 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp">
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture13"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture14"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
 
-                        <ImageView
+                        <ImageButton
                             android:id="@+id/picture15"
                             android:layout_width="200dp"
                             android:layout_height="100dp"
                             android:layout_weight="1"
                             android:padding="5dp"
+                            android:scaleType="centerInside"
                             android:src="@drawable/fight_club_level1" />
                     </LinearLayout>
                 </LinearLayout>

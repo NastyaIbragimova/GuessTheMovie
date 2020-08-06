@@ -16,4 +16,5 @@
     <string name="level10">Уровень 10</string>
     <string name="progress_level">Угадано фильмов: </string>
     <string name="coins">Монеты: </string>
+    <string name="filling">_ _ _</string>
 </resources>
